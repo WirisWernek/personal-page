@@ -1,0 +1,51 @@
+.circulo {
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+}
+
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+#circulo-vermelho {
+  background: #f83429;
+}
+
+#circulo-amarelo {
+  background: #ffbd2e;
+  margin: 0 0.3rem 0 0.3rem;
+}
+
+#circulo-verde {
+  background: #27c93f;
+}
+
+section {
+  margin: 0.5rem 0 0 1rem;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 6rem;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+li {
+	margin: 0 0.5rem 0 0.5rem;
+}
+
+li:last-child{
+	margin-right: 0;
+}

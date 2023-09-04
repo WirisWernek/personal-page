@@ -1,0 +1,48 @@
+.container,
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  width: 15rem;
+  animation: floatAnimation 2.5s infinite ease-out;
+}
+
+#presentation {
+  margin-top: 3rem;
+  width: 60%;
+  padding-right: 10%;
+}
+
+.linha-customizada {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 4% !important;
+  margin-left: 1% !important;
+}
+
+@keyframes floatAnimation {
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+@media (max-width: 1000px) {
+  img {
+    display: none;
+	width: 0;
+  }
+  #presentation {
+    width: 100%;
+    padding-right: 0;
+	margin-left: 2rem;
+
+  }
+}

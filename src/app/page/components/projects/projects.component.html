@@ -1,1 +1,4 @@
-<p>projects works!</p>
+<div *ngFor="let project of projectList; let i = index">
+    <app-project-right [project]="project" *ngIf="(i % 2)  == 0"></app-project-right>
+    <app-project-left [project]="project" *ngIf="(i % 2) != 0"></app-project-left>
+</div>

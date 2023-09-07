@@ -1,1 +1,17 @@
-<p>project-right works!</p>
+<div class="content-item">
+  <div class="linha-customizada">
+    <div class="d-flex align-items-center about">
+      <div class="flex-shrink-0 mr-5">
+        <img
+          src="{{ project.imageUrl }}"
+          alt="{{ project.imageDescription }}"
+        />
+      </div>
+      <div class="flex-grow-1 ms-5">
+        <p>{{ project.projectDescription }}</p>
+        <p>Código Fonte: <a>{{ project.projectSourceCode }}</a></p>
+        <p>Preview: <a>{{ project.projecPreview }}</a></p>
+      </div>
+    </div>
+  </div>
+</div>

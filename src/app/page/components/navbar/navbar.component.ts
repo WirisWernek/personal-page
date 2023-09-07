@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
+	@Output() emmitTypeVisible = new EventEmitter<string>();
 
+	onMinimizeClick(){
+		console.log("ok")
+		this.emmitTypeVisible.emit('2');
+	}
+
+	onMaximizeClick(){
+		console.log("ok")
+		this.emmitTypeVisible.emit('1');
+	}
+
+	onCloseClick(){
+		alert("Não vai não amor!")
+	}
 }

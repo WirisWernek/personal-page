@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { PageComponent } from './components/page/page.component';
+import { PageComponent } from './view/page/page.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { AboutComponent } from './components/about/about.component';
 import { TechnologiesComponent } from './components/technologies/technologies.component';
@@ -13,6 +13,7 @@ import { ExperiencesComponent } from './components/experiences/experiences.compo
 import { SendEmailComponent } from './components/send-email/send-email.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { CommandBarComponent } from './components/command-bar/command-bar.component';
 
 const routes: Routes = [{ path: '', component: PageComponent }];
 
@@ -29,7 +30,8 @@ const routes: Routes = [{ path: '', component: PageComponent }];
     ExperiencesComponent,
     SendEmailComponent,
     SocialMediaComponent,
-    ContactComponent
+    ContactComponent,
+    CommandBarComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,10 @@
+<app-navbar (emmitTypeVisible)="reciverResponse($event)" ></app-navbar>
+<div *ngIf="typeVisible == '1'" >
+  <app-presentation></app-presentation>
+  <app-about></app-about>
+  <app-technologies></app-technologies>
+  <app-projects></app-projects>
+</div>
+<div *ngIf="typeVisible == '2'">
+	<app-command-bar></app-command-bar>
+</div>

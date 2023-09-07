@@ -1,1 +1,11 @@
-<p>technologies works!</p>
+<div class="container content-item">
+  <div class="row">
+    <div *ngFor="let item of technologies"  class="col-2">
+      <img
+	  class="technologie-logo"
+        src="{{item.url}}"
+        alt=".{{item.description}}"
+      />
+    </div>
+  </div>
+</div>

@@ -1,31 +1,29 @@
-.container,
-.row {
-  padding: 0;
-  margin: 0;
+img {
+  width: 15rem;
+  overflow: hidden;
+  float: left;
+  animation: floatAnimation 4s infinite ease-out;
 }
-
 p {
   text-align: justify;
 }
 
-img {
-  width: 15rem;
-  animation: floatAnimation 2.5s infinite ease-out;
-}
-
-#presentation {
-  margin-top: 3rem;
-  width: 60%;
-  padding-right: 10%;
+.profile {
+  border-radius: 50%;
 }
 
 .linha-customizada {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   box-sizing: border-box;
-  margin-right: 4% !important;
-  margin-left: 1% !important;
+}
+
+.about {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.content-item {
+  margin-top: 8em !important;
 }
 
 @keyframes floatAnimation {
@@ -37,12 +35,11 @@ img {
 @media (max-width: 1000px) {
   img {
     display: none;
-	width: 0;
+    width: 0;
   }
   #presentation {
     width: 100%;
     padding-right: 0;
-	margin-left: 2rem;
-
+    margin-left: 2rem;
   }
 }

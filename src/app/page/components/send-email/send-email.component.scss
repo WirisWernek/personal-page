@@ -1,0 +1,39 @@
+.header{
+	width: 100%;
+}
+
+.separator{
+	width: 1rem;
+}
+
+input, textarea{
+	background-color: #0000001A;
+	border: 0;
+	border-radius: 3.89px;
+	color: #22d30a;
+}
+
+textarea{
+	resize: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+	background-color: #0000001A;
+	color: #ffffff;
+} 
+label{
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+button{
+	background-color: #0000001A;
+	border: 0;
+	width: 15rem;
+	color: #000000;
+	border-radius: 50px;
+	font-size: 24px;
+}

@@ -1,0 +1,18 @@
+.command-line{
+	width: 80%;
+}
+
+img{
+	width: 2rem;
+}
+
+input{
+	border-radius: 0 9px 9px 0 !important;
+	border: 0 none;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 

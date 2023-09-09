@@ -1,3 +1,8 @@
+/* Importing Bootstrap SCSS file. */
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
 body {
 	background-color: #2E3440;
 	color: #FFFFFF;
@@ -9,4 +14,3 @@ html, body{
 	margin:0px !important;
 	padding: 0px !important;
  }
- 

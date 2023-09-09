@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class PageComponent implements OnInit {
   typeVisible: string = '1';
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+
+  }
 
   reciverResponse(response: string) {
     console.log('Foi emitido o evento e chegou no pai >>>> ', response);

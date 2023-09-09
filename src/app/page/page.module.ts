@@ -14,6 +14,7 @@ import { SendEmailComponent } from './components/send-email/send-email.component
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CommandBarComponent } from './components/command-bar/command-bar.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 const routes: Routes = [{ path: '', component: PageComponent }];
 
@@ -31,11 +32,12 @@ const routes: Routes = [{ path: '', component: PageComponent }];
     SendEmailComponent,
     SocialMediaComponent,
     ContactComponent,
-    CommandBarComponent
+    CommandBarComponent,
+    ModalComponent
   ],
   imports: [
     CommonModule,
-	RouterModule.forChild(routes)
+	RouterModule.forChild(routes),
   ]
 })
 export class PageModule { }

@@ -4,12 +4,6 @@
   height: 1em;
 }
 
-.container {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;
-}
-
 #circulo-vermelho {
   background: #f83429;
 }
@@ -24,8 +18,7 @@
 }
 
 section {
-  margin: 0.5rem 0 0 1rem;
-  padding: 0;
+  padding: 0.5rem 0 0 1rem;
 }
 
 ul {
@@ -43,4 +36,8 @@ nav {
 
 li:last-child{
 	margin-right: 0;
+}
+
+li{
+	cursor: pointer;
 }

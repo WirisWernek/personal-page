@@ -8,22 +8,9 @@ p {
   text-align: justify;
 }
 
-.profile {
-  border-radius: 50%;
-}
-
-.linha-customizada {
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-.about {
-  padding-left: 8vw;
-  padding-right: 8vw;
-}
-
-.content-item {
-  margin-top: 8em !important;
+.content {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 @keyframes floatAnimation {
@@ -33,13 +20,23 @@ p {
 }
 
 @media (max-width: 1000px) {
-  img {
-    display: none;
-    width: 0;
+  .content {
+    flex-direction: column-reverse;
+    padding: 0 !important;
+    margin: 0 !important;
   }
-  #presentation {
-    width: 100%;
-    padding-right: 0;
-    margin-left: 2rem;
+
+  .description {
+	width: 85%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .image{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 0 !important;
   }
 }

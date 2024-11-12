@@ -1,0 +1,42 @@
+img {
+  width: 15rem;
+  overflow: hidden;
+  float: left;
+  animation: floatAnimation 4s infinite ease-out;
+}
+p {
+  text-align: justify;
+}
+
+.content {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+@keyframes floatAnimation {
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column-reverse;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .description {
+	width: 85%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .image{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 0 !important;
+  }
+}

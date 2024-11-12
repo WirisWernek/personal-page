@@ -1,0 +1,33 @@
+.contact{
+ height: 92%;
+}
+
+.form-control{
+	width: 100%;
+}
+
+form{
+	width: 80%;
+}
+
+button{
+	background-color: #0000001A;
+	border: 0;
+	width: 15rem;
+	color: #000000;
+	border-radius: 50px;
+	font-size: 24px;
+}
+
+@media (max-width: 700px) {
+	.header-email{
+		display: block !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	form{
+		width: 60%;
+	}
+}
+
